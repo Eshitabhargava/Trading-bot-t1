@@ -3,3 +3,9 @@ closes is a list to keep track of closing value of each
 callback func on_message receives msg from API'ch will be in the from of a JSON object 
 From that JSON object we'll extract property k'ch is again a json and contains most of the imp info we need tto make decisions
 property x inside of k a boolean indicates closing thus if its value is true, we'll add the curr one to closes list
+
+38: Need atleast 50 closing point before we calculate RSI values
+
+in_position:
+If we were to buy when crypto is less than rsi oversold then maybe for more than one values it can be lesser than oversold n so we'll end up buying again n again which we arent planning in the curr strategy. So we'll simply keep a boolean in_positio to keep track of the same
+Simi in case of overbought we might end up selling in pieces
