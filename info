@@ -1,0 +1,5 @@
+closes is a list to keep track of closing value of each
+
+callback func on_message receives msg from API'ch will be in the from of a JSON object 
+From that JSON object we'll extract property k'ch is again a json and contains most of the imp info we need tto make decisions
+property x inside of k a boolean indicates closing thus if its value is true, we'll add the curr one to closes list

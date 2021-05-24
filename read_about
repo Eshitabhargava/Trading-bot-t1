@@ -1,0 +1,14 @@
+Binance:
+    API, broker + provides prices of crypto + we'll sell using the same
+    Its a server,we'll connect as client on one of the streams using python websockets
+    We'll keep getting continuous price value from Binance
+
+RSI 
+    Relative Strength Index (RSI) type of momentum indicator that looks at the pace of recent price changes to determine whether a stock is ripe for a rally or a selloff or overbought(selling for more than actual worth) or oversold(selling for less than actual worth) conditions
+    (intra-assest)Comparison of stock/market against itself instead of inter-asset Comparison
+    Range [0,100]
+    Used along with other indicators to identify entry/exit positions
+    Bullish: >30 horizontal refernce level
+    Bearish: <70 horizontal refernce level
+    (For more volatile assests'ch mover quicker values can be 20 and 80 resp)
+  
